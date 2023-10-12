@@ -1,0 +1,32 @@
+.a::first-letter{
+	background-color:darkred ;
+	font: 200%;
+}
+
+.b::first-line{
+	background-color:darkred ;
+	background-color: green;
+	font-size: 150%;
+}
+
+.c::after{
+	content: "remember";
+	color: darkred;
+}
+
+.d::before{
+	content:"by heart";
+	background-color: purple;
+}
+.e::selection{
+	background-color: greenyellow;
+	color: yellow;
+}
+.::mark{
+	color: blue;
+}
+
+.f:active{
+	color: blueviolet;
+	background-color: greenyellow;
+}
